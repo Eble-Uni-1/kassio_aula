@@ -1,0 +1,41 @@
+body {
+    height: 150VH;
+    background: #126df7;
+}
+
+.Organiza {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+}
+
+#PesquisaCEP {
+    background-color: #6ad8f3;
+    border: #000000;
+    cursor: text;
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 1.0rem;
+}
+
+.Retorno {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+#botao {
+    background-color: #6ad8f3;
+    width: 50px;
+    border: black;
+    border-radius: 4px;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
